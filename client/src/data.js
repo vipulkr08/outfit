@@ -1,7 +1,7 @@
 export const sliderItems = [
   {
     id: 1,
-    img: "https://bit.ly/3P4VAVK",
+    img: "https://i.ibb.co/XsdmR2c/1.png",
     title: "SUMMER SALE",
     desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
     bg: "f5fafd",
@@ -27,30 +27,30 @@ export const categories = [
     id: 1,
     img: "https://images.pexels.com/photos/5886041/pexels-photo-5886041.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     title: "SHIRT STYLE!",
-    cat: "shirt",
+    cat: "women",
   },
   {
     id: 2,
-    img: "https://images.pexels.com/photos/5560329/pexels-photo-5560329.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    img: "https://images.pexels.com/photos/2983464/pexels-photo-2983464.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     title: "LOUNGEWEAR LOVE",
-    cat: "loungewear",
+    cat: "coat",
   },
   {
     id: 3,
     img: "https://images.pexels.com/photos/5480696/pexels-photo-5480696.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
     title: "LIGHT JACKETS",
-    cat: "jackets",
+    cat: "jeans",
   },
 ];
 
 export const popularProducts = [
   {
     id: 1,
-    img: "https://www.vintageindustries.nl/download_front/tuzroi1804/_overview_large_/3542_Devin_T_shirt_Black.png",
+    img: "https://d3o2e4jr3mxnm3.cloudfront.net/Mens-Jake-Guitar-Vintage-Crusher-Tee_68382_1_lg.png",
   },
   {
     id: 2,
-    img: "https://www.vintageindustries.nl/download_front/wzbmgl1928/_overview_large_/3543_Darwin_shirt_jacket_Birch_check.png",
+    img: "https://cdn.shopify.com/s/files/1/0101/4832/products/Angela_Natural_Tee.png?v=1606780388",
   },
   {
     id: 3,
@@ -66,11 +66,11 @@ export const popularProducts = [
   },
   {
     id: 6,
-    img: "https://www.vintageindustries.nl/download_front/schkyb1297/_overview_large_/5012_Corduroy_cap_Beige.png",
+    img: "https://d3o2e4jr3mxnm3.cloudfront.net/Rocket-Vintage-Chill-Cap_66374_1_lg.png",
   },
   {
     id: 7,
-    img: "https://assets.ajio.com/medias/sys_master/root/20211224/FNc4/61c4c6f6f997ddf8f15f07d0/-473Wx593H-469034062-black-MODEL.jpg",
+    img: "https://www.vintageindustries.nl/download_front/qympzk1762/2217_Arrow_Jacket_Forest.png",
   },
   {
     id: 8,
