@@ -179,7 +179,7 @@ const Cart = () => {
           stripeData: res.data,
           products: cart,
         });
-      } catch (err) {}
+      } catch {}
     };
     stripeToken && makeRequest();
   }, [stripeToken, cart.total, history]);

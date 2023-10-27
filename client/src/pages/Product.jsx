@@ -1,4 +1,4 @@
-import { Add, Remove } from "@material-ui/icons/index";
+import { Add, Remove } from "@material-ui/icons";
 import styled from "styled-components";
 import Announcement from "../components/Announcement";
 import Footer from "../components/Footer";
@@ -50,10 +50,10 @@ const Price = styled.span`
 `;
 
 const FilterContainer = styled.div`
-  display: flex;
-  justify-content: space-between;
   width: 50%;
   margin: 30px 0px;
+  display: flex;
+  justify-content: space-between;
   ${mobile({ width: "100%" })}
 `;
 
@@ -63,8 +63,8 @@ const Filter = styled.div`
 `;
 
 const FilterTitle = styled.span`
-  font-weight: 200;
   font-size: 20px;
+  font-weight: 200;
 `;
 
 const FilterColor = styled.div`
