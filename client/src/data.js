@@ -1,21 +1,21 @@
 export const sliderItems = [
   {
     id: 1,
-    img: "https://i.ibb.co/XsdmR2c/1.png",
+    img: "https://bit.ly/3P4VAVK",
     title: "SUMMER SALE",
     desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
     bg: "f5fafd",
   },
   {
     id: 2,
-    img: "https://i.ibb.co/DG69bQ4/2.png",
+    img: "https://i.ibb.co/Vg8RBbg/ke2xmemf-removebg-preview.png",
     title: "AUTUMN COLLECTION",
     desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
     bg: "fcf1ed",
   },
   {
     id: 3,
-    img: "https://i.ibb.co/cXFnLLV/3.png",
+    img: "https://hips.hearstapps.com/hmg-prod/images/loungewear-1591784920.jpg?crop=0.497xw:0.993xh;0.503xw,0&resize=640:*",
     title: "LOUNGEWEAR LOVE",
     desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
     bg: "fbf0f4",
@@ -27,19 +27,19 @@ export const categories = [
     id: 1,
     img: "https://images.pexels.com/photos/5886041/pexels-photo-5886041.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     title: "SHIRT STYLE!",
-    cat: "women",
+    cat: "shirt",
   },
   {
     id: 2,
     img: "https://images.pexels.com/photos/2983464/pexels-photo-2983464.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     title: "LOUNGEWEAR LOVE",
-    cat: "coat",
+    cat: "loungewear",
   },
   {
     id: 3,
     img: "https://images.pexels.com/photos/5480696/pexels-photo-5480696.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
     title: "LIGHT JACKETS",
-    cat: "jeans",
+    cat: "jackets",
   },
 ];
 
@@ -50,15 +50,15 @@ export const popularProducts = [
   },
   {
     id: 2,
-    img: "https://cdn.shopify.com/s/files/1/0101/4832/products/Angela_Natural_Tee.png?v=1606780388",
+    img: "https://i.ibb.co/5RspGkx/ryan-hoffman-6-Nub980b-I3-I-unsplash.jpg",
   },
   {
     id: 3,
-    img: "https://www.prada.com/content/dam/pradanux_products/U/UCS/UCS319/1YOTF010O/UCS319_1YOT_F010O_S_182_SLF.png",
+    img: "https://i.ibb.co/B4FRCJP/UCS319-1-YOT-F010-O-S-182-SLF-removebg-preview.png",
   },
   {
     id: 4,
-    img: "https://www.burdastyle.com/pub/media/catalog/product/cache/7bd3727382ce0a860b68816435d76e26/107/BUS-PAT-BURTE-1320516/1170x1470_BS_2016_05_132_front.png",
+    img: "https://i.ibb.co/rm4sXPc/Mens-Im-Classic-Wreath-Truck-Short-Sleeve-Crusher-Tee-80731-1-lg-removebg-preview.png",
   },
   {
     id: 5,
@@ -70,7 +70,7 @@ export const popularProducts = [
   },
   {
     id: 7,
-    img: "https://www.vintageindustries.nl/download_front/qympzk1762/2217_Arrow_Jacket_Forest.png",
+    img: "https://www.prada.com/content/dam/pradabkg_products/S/SC7/SC713M/1WQ8F0002/SC713M_1WQ8_F0002_S_232_SLF.jpg/_jcr_content/renditions/cq5dam.web.hebebed.1000.1000.jpg",
   },
   {
     id: 8,

@@ -10,7 +10,7 @@ const Container = styled.div`
   display: flex;
   position: relative;
   overflow: hidden;
-  ${mobile({ display: "none" })};
+  ${mobile({ display: "none" })}
 `;
 
 const Arrow = styled.div`
@@ -24,7 +24,6 @@ const Arrow = styled.div`
   position: absolute;
   top: 0;
   bottom: 0;
-  margin: auto;
   left: ${(props) => props.direction === "left" && "10px"};
   right: ${(props) => props.direction === "right" && "10px"};
   margin: auto;
