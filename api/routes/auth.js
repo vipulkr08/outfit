@@ -3,7 +3,7 @@ const User = require("../models/User");
 const CryptoJS = require("crypto-js");
 const jwt = require("jsonwebtoken");
 
-// REGISTER
+// Registration Route
 router.post("/register", async (req, res) => {
   const newUser = new User({
     username: req.body.username,
@@ -13,7 +13,6 @@ router.post("/register", async (req, res) => {
       process.env.PASS_SEC
     ).toString(),
   });
-
   try {
     const savedUser = await newUser.save();
     res.status(201).json(savedUser);
@@ -22,7 +21,7 @@ router.post("/register", async (req, res) => {
   }
 });
 
-// LOGIN
+// Login Route
 router.post("/login", async (req, res) => {
   try {
     const user = await User.findOne({ username: req.body.username });
@@ -31,10 +30,9 @@ router.post("/login", async (req, res) => {
       user.password,
       process.env.PASS_SEC
     );
-    const orginalPassword = hashedPassword.toString(CryptoJS.enc.Utf8);
-    orginalPassword !== req.body.password &&
+    const originalPassword = hashedPassword.toString(CryptoJS.enc.Utf8);
+    originalPassword !== req.body.password &&
       res.status(401).json("Wrong credentials!");
-
     const accessToken = jwt.sign(
       {
         id: user._id,
